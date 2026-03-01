@@ -1,0 +1,18 @@
+{
+  "name": "mahjong-multiplayer",
+  "version": "1.0.0",
+  "description": "Traditional 4-player Mahjong with real-time online multiplayer",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
